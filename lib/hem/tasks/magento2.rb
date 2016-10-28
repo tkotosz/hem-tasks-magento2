@@ -15,6 +15,7 @@ namespace :magento2 do
   require_relative 'magento2/index'
   require_relative 'magento2/cache'
   require_relative 'magento2/development'
+  require_relative 'magento2/createpatch'
 
   desc 'Initializes Magento2 specifics on the virtual machine after a fresh build'
   task 'initialize-vm': [
